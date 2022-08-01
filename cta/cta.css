@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+}
+
+#cta-base {
+	background: #2ec5ce;
+	height: 491px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#cta-left {
+	height: 356px;
+	width: 540px;
+	padding-right: 5px;
+}
+
+#cta-title {
+	font-size: 48px;
+	font-weight: 800;
+	line-height: 64px;
+	margin: 0;
+}
+
+#cta-text {
+	font-size: 18px;
+	line-height: 32px;
+}
+
+#cta-sub-title {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 28px;
+	margin: 32px 0 10px 0;
+}
+
+.cta-badges {
+	margin: 0 6px 0 0;
+}
+
+#cta-right {
+	height: 491px;
+	display: flex;
+}
