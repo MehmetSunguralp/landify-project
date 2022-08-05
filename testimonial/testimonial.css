@@ -1,0 +1,86 @@
+body {
+	margin: 0;
+	font-family: 'Inter', sans-serif;
+	background: #d5fafc;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+#testimonial-title {
+	font-size: 48px;
+	width: 445px;
+	font-weight: 800;
+	margin: 0;
+}
+
+#sub-title {
+	font-size: 18px;
+}
+
+#left-side-container {
+	height: 420px;
+	width: 350px;
+	border-radius: 8px;
+	padding: 32px;
+	background-color: white;
+}
+
+.columns {
+	display: flex;
+	align-items: flex-start;
+	margin-top: 32px;
+}
+
+.quote-small {
+	margin: 0;
+	opacity: 0.3;
+}
+
+.content {
+	width: 254px;
+	margin-left: 16px;
+}
+
+.content-parag {
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.hubspot {
+	display: block;
+}
+
+.person {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 28px;
+	margin-bottom: 0;
+}
+
+.company {
+	margin-top: 0;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #969bab;
+}
+
+
+#right-side-container-one {
+	height: 340px;
+	width: 350px;
+	border-radius: 8px;
+	padding: 32px;
+	background-color: white;
+    margin-bottom: 32px;
+}
+
+#right-side-container-two {
+	height: 276px;
+	width: 350px;
+	border-radius: 8px;
+	padding: 32px;
+	background-color: white;
+}
