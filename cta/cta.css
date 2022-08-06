@@ -5,7 +5,7 @@ body {
 
 #cta-base {
 	background: #2ec5ce;
-	height: 490px;
+	height: 492px;
 	width: 100%;
 	display: flex;
 	justify-content: center;
@@ -34,11 +34,11 @@ body {
 	font-size: 18px;
 	font-weight: 500;
 	line-height: 28px;
-	margin: 32px 0 10px 0;
+	margin: 32px 0 10px;
 }
 
 .cta-badges {
-	margin: 0 6px 0 0;
+	margin-right: 6px;
 }
 
 #cta-right {
