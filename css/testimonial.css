@@ -1,11 +1,10 @@
-body {
-	margin: 0;
-	font-family: 'Inter', sans-serif;
+.testimonial {
 	background: #d5fafc;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	height: 120vh;
+	margin-top: 50px;
 }
 
 #testimonial-title {
@@ -67,14 +66,13 @@ body {
 	color: #969bab;
 }
 
-
 #right-side-container-one {
 	height: 340px;
 	width: 350px;
 	border-radius: 8px;
 	padding: 32px;
 	background-color: white;
-    margin-bottom: 32px;
+	margin-bottom: 32px;
 }
 
 #right-side-container-two {

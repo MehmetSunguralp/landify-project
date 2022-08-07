@@ -1,35 +1,33 @@
-body {
-	margin: 0;
+.feature-single {
 	padding: 64px 165px;
-	font-family: 'Inter', sans-serif;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 }
 
-#right-single {
+.right-single {
 	width: 540px;
 	height: 302px;
 }
 
-#single-title {
+.single-title {
 	font-size: 40px;
 	font-weight: 800;
 	line-height: 54px;
 }
 
-#single-text {
+.single-text {
 	font-size: 18px;
 	line-height: 32px;
 }
 
-#single-link {
+.single-link {
 	text-decoration: none;
 	font-weight: 500;
 	font-size: 16px;
 	color: #8c30f5;
 }
 
-#single-link:hover {
+.single-link:hover {
 	color: #a979e1;
 }

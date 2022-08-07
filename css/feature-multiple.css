@@ -1,9 +1,4 @@
-body {
-	margin: 0;
-	font-family: 'Inter', sans-serif;
-}
-
-#section-heading {
+.section-heading {
 	height: 136px;
 	width: 540px;
 	left: 450px;
@@ -11,7 +6,7 @@ body {
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#title {
+.title {
 	font-size: 48px;
 	font-weight: 800;
 	text-align: center;
@@ -19,23 +14,22 @@ body {
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#content {
+.content-ftr {
 	margin: 8px auto 0;
-
 	font-size: 18px;
 	font-weight: 400;
 	line-height: 32px;
 	text-align: center;
 }
 
-#features-list {
+.features-list {
 	height: 360px;
 	width: 1110px;
 	margin: 0 auto;
 }
 
-#first-row,
-#second-row {
+.first-row,
+.second-row {
 	display: flex;
 	justify-content: space-between;
 	margin-bottom: 64px;
