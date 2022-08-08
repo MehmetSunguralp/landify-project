@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- 		<link rel="stylesheet" href="css/cta.css" />
+		<link rel="stylesheet" href="css/feature-multiple.css" />
+		<link rel="stylesheet" href="css/feature-single-two.css" />
+		<link rel="stylesheet" href="css/feature-single.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/header.css" />
+		<link rel="stylesheet" href="css/hero-content.css" />
+		<link rel="stylesheet" href="css/stats.css" />
+		<link rel="stylesheet" href="css/testimonial.css" /> -->
+		<title>Landify</title>
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<script>
+			$(function () {
+				var includes = $('[data-include]');
+				$.each(includes, function () {
+					var file = './' + $(this).data('include') + '.html';
+					$(this).load(file);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="hero">
+			<div data-include="header"></div>
+			<div data-include="hero-content"></div>
+		</div>
+		<div data-include="logo-clouds"></div>
+		<div data-include="feature-multiple"></div>
+		<div data-include="testimonial"></div>
+		<div data-include="stats"></div>
+		<div data-include="feature-single"></div>
+		<div data-include="feature-single-two"></div>
+		<div data-include="cta"></div>
+		<div data-include="footer"></div>
+	</body>
+</html>

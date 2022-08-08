@@ -1,11 +1,10 @@
-body {
-	margin: 0;
-	font-family: 'Inter', sans-serif;
+.testimonial {
 	background: #d5fafc;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	height: 120vh;
+	margin-top: 50px;
 }
 
 #testimonial-title {
@@ -13,6 +12,8 @@ body {
 	width: 445px;
 	font-weight: 800;
 	margin: 0;
+	position: relative;
+	z-index: 3;
 }
 
 #sub-title {
@@ -36,6 +37,8 @@ body {
 .quote-small {
 	margin: 0;
 	opacity: 0.3;
+	position: relative;
+	top: 20px;
 }
 
 .content {
@@ -67,14 +70,13 @@ body {
 	color: #969bab;
 }
 
-
 #right-side-container-one {
 	height: 340px;
 	width: 350px;
 	border-radius: 8px;
 	padding: 32px;
 	background-color: white;
-    margin-bottom: 32px;
+	margin-bottom: 32px;
 }
 
 #right-side-container-two {
@@ -83,4 +85,11 @@ body {
 	border-radius: 8px;
 	padding: 32px;
 	background-color: white;
+}
+
+.quote-big {
+	position: absolute;
+	opacity: 0.4;
+	z-index: 1;
+	transform: translate(-90px, -176px);
 }
