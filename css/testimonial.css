@@ -38,6 +38,8 @@
 .quote-small {
 	margin: 0;
 	opacity: 0.3;
+	position: relative;
+	top: 20px;
 }
 
 .content {
