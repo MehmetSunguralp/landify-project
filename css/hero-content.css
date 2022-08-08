@@ -1,8 +1,6 @@
 .hero-content {
 	margin: 0;
 	height: 794px;
-	background-image: url('/vectors/hero-content-bg.svg');
-	background-size: cover;
 	display: flex;
 	justify-content: center;
 }
